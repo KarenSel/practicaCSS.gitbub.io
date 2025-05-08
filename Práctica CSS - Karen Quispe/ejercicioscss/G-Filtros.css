@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #357ABD;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .header h3 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #e0f0ff;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 0;
+    margin: 0%;
+    
+    position: static;
+  }
+  
+  .footer button {
+
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+  }
+  
+  .footer button:hover {
+    background-color: #666;
+  }
+
+  .seccion H3{
+    text-align: center;
+    font-size: 50px;
+    padding: 9%;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+  .seccion-seccion1 {
+    background-image: url('/Imagenes/gatofondo.jpg'); 
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .seccion-seccion2 {
+    background-image: url('/Imagenes/gatofondo2.jpg');
+    filter: grayscale(100%);
+  }
+  .seccion-seccion3 {
+    background-image: url('/Imagenes/gato1.jpg');
+    filter: sepia(100%);
+  }

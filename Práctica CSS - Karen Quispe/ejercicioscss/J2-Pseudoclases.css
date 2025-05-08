@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #357ABD;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .header h3 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #e0f0ff;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 0;
+    margin: 0%;
+    
+    position: static;
+  }
+  
+  .footer button {
+
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+  }
+  
+  .footer button:hover {
+    background-color: #666;
+  }
+
+  .enlaces {
+    box-sizing: border-box;
+    display: flex;
+  }
+  
+  .columna {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: stretch; /* Importante */
+  }
+  
+  .enlaces a {
+    width: 100%;
+    height: 80px;
+    background-color: #e0e0ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  
+  /* Pseudoclases */
+  .enlaces a:visited {
+    color: purple;
+  }
+  
+  .enlaces a:hover {
+    color: orange;
+    background-color: #ffe0b2;
+    transform: scale(1.05);
+  }
+  
+  .enlaces a:active {
+    color: red;
+    background-color: #ffcdd2;
+  }
+  
+  /* Enlace de objetivo */
+  #objetivo:target {
+    background-color: lightgreen;
+    border: 2px solid green;
+  }
+
+  .titulo1{
+    height: 50%;
+    color: white;
+    background-color: #444;
+    padding: 8%;
+    text-align: center;
+  }
+  
+  /* === Sección 2: Formularios === */
+  .formularios{
+    border: 2px solid #444;           
+    border-radius: 20px;              
+    background-color: #f9f9f9;       
+    padding: 10px;                   
+    margin: 20px auto;     
+    max-width: 400px;                 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .formularios form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input:focus {
+    border: 2px solid dodgerblue;
+    background-color: #235e96;
+    outline: none;
+  }
+  
+  input[type="checkbox"]:checked {
+    accent-color: green;
+  }
+  
+  .form-group:focus-within {
+    background-color: #f0f8ff;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .titulo2{
+    height: 50%;
+    color: white;
+    background-color: #444;
+    padding: 8%;
+    text-align: center;
+  }
+
+  .seleccion ol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto); 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .seleccion li {
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: gray;
+    color: white;
+  }
+  
+  .seleccion li:nth-child(odd) {
+    background-color: #edaf27; 
+  }
+  
+  .seleccion li:nth-child(even) {
+    background-color: #0b72e8; 
+  }
+  
+  .seleccion li:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+    color: black;
+  }
+  
+  .seleccion li:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1;
+    background-image: linear-gradient(to right, red, rgb(93, 25, 202));
+  }
+  
+  .seleccion li:nth-child(3) {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  
+  .seleccion li:nth-child(4) {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  
+  .seleccion li:nth-child(5) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  
+  .seleccion li:nth-child(6) {
+    grid-row: 3;
+    grid-column: 2;
+    color: rgb(12, 18, 2);
+    background-color: #ffcdd2;
+  }

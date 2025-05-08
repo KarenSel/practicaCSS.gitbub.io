@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #357ABD;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .header h3 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #e0f0ff;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 0;
+    margin: 0%;
+    
+    position: static;
+  }
+  
+  .footer button {
+
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+  }
+  
+  .footer button:hover {
+    background-color: #666;
+  }
+
+  main {
+    width: 100%;
+  }
+  
+  section {
+    width: 100%;
+    height: 30vh;
+    background-image: url('/Imagenes/gatofondo.jpg'); /* Reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+    
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+  section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: none;
+    z-index: 0;
+  }
+
+  section H3 {
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  .seccion-seccion1::before {
+    backdrop-filter: blur(10px);
+  }
+  
+  .seccion-seccion2::before {
+    backdrop-filter: brightness(1.6);
+  }
+  
+  .seccion-seccion3::before {
+    backdrop-filter: contrast(200%);
+  }
+  
+  .seccion-seccion4::before {
+    backdrop-filter: drop-shadow(8px 8px 10px black);
+  }
+  
+  .seccion-seccion5::before {
+    backdrop-filter: grayscale(100%);
+  }
+  
+  .seccion-seccion6::before {
+    backdrop-filter: hue-rotate(90deg);
+  }
+  
+  .seccion-seccion7::before {
+    backdrop-filter: invert(100%);
+  }
+  
+  .seccion-seccion8::before {
+    backdrop-filter: saturate(300%);
+  }
+  
+  .seccion-seccion9::before {
+    backdrop-filter: sepia(100%);
+  }
+  
+  .seccion-seccion10::before {
+    backdrop-filter: none;
+  }

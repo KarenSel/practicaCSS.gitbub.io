@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #357ABD;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .header h3 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #e0f0ff;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 0;
+    margin: 0%;
+    
+    position: static;
+  }
+  
+  .footer button {
+
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+  }
+  
+  .footer button:hover {
+    background-color: #666;
+  }
+
+
+  .seccion {
+
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px 0px 10px 0px;    
+  }
+  p{
+    text-align: center;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    border-color: #444;
+    margin: 4px;
+  }
+  
+  .light {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .regular {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+  
+  .bold {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:ital@1&display=swap');
+  .italic {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+  .normal {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+  .oblique {
+    font-family: 'Roboto Slab', serif;
+    font-style: oblique;
+  }
+  
+  
+  
+  .italic2 {
+    font-style: italic;
+  }
+  
+  .normal2 {
+    font-style: normal;
+    font-variant: small-caps;
+  }
+  
+  .oblique2 {
+    font-style: oblique;
+  }
+  
+  
+  .decoration {
+    text-decoration: underline;
+  }
+  
+  .indent {
+    text-indent: 2em;
+  }
+  
+  .space {
+    letter-spacing: 0.5em;
+  }

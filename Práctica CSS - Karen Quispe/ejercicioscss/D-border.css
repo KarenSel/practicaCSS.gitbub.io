@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #357ABD;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .header h3 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #e0f0ff;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 0;
+    margin: 0%;
+    position: static;
+  }
+  
+  .footer button {
+
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer button:hover {
+    background-color: #666;
+  }
+
+.seccion{
+    width: auto;
+    margin: 20px;
+    border-color: #444;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.seccion-seccion1{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 3px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.color1{
+    width: 100px;
+    height: 80px;
+    background-color: pink;
+    margin-inline-start: 20px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.color2{
+    width: 100px;
+    height: 80px;
+    background-color: yellow;
+    margin-inline-start: 20px;
+    box-shadow: -4px -4px 8px  rgba(0, 0, 0, 0.3);
+}
+.color3{
+    width: 100px;
+    height: 80px;
+    background-color: greenyellow;
+    margin-inline-start: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}
+.color4{
+    width: 100px;
+    height: 80px;
+    background-color: gold;
+    margin-inline-start: 20px;
+    box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+.color5{
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin-inline-start: 20px;
+    box-shadow: 0px -4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.seccion-seccion2{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 3px ;
+    display: flex;
+  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.color21{
+    background-image: url('/Imagenes/gato1.jpg');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    background-color: pink;
+    margin-inline-start: 20px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+    
+}
+.color22{
+    background-image: url('/Imagenes/gato2.jpg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    background-color: yellow;
+    margin-inline-start: 20px;
+    box-shadow: -4px -4px 8px  rgba(0, 0, 0, 0.3);
+}
+.color23{
+    background-image: url('/Imagenes/gato3.jpg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    background-color: greenyellow;
+    margin-inline-start: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}
+.color24{
+    background-image: url('/Imagenes/gato4.jpg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    background-color: gold;
+    margin-inline-start: 20px;
+    box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+.color25{
+    background-image: url('/Imagenes/gato5.jpg');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin-inline-start: 20px;
+    box-shadow: 0px -4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+.seccion-seccion3{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 3px ;
+    display: flex;
+  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.color31{
+    background-image: url('/Imagenes/gato1.jpg');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    margin-inline-start: 20px;
+    box-shadow: 10px 10px 10px 2px rgba(237, 13, 13, 0.3);
+    
+}
+.color32{
+    background-image: url('/Imagenes/gato2.jpg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    margin-inline-start: 20px;
+    box-shadow: -5px -5px 10px 2px  rgba(206, 240, 14, 0.3);
+}
+.color33{
+    background-image: url('/Imagenes/gato3.jpg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    margin-inline-start: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(27, 211, 55, 0.34);
+}
+.color34{
+    background-image: url('/Imagenes/gato4.jpg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    margin-inline-start: 20px;
+    box-shadow: 10px 0px 10px 0px rgba(55, 22, 222, 0.3);
+}
+.color35{
+    background-image: url('/Imagenes/gato5.jpg');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    margin-inline-start: 20px;
+    box-shadow: 0px -10px 8px 1px rgba(240, 236, 6, 0.3);
+}
+
+
+
+
+

@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #357ABD;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .header h3 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #e0f0ff;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 0;
+  }
+  
+  .footer button {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer button:hover {
+    background-color: #666;
+  }
+
+
+.seccion {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.seccion1 .titulo {
+    color: wheat;
+    background-color: green;
+    padding: 0.5rem 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.seccion2 .titulo {
+    color: green;
+    padding: 0.5rem 3rem;
+    width: 100%;
+    text-align: center;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    border-color: #444;
+}
+
+.seccion3 .titulo {
+    padding: 0.5rem 3rem;
+    width: 100%;
+    text-align: center;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    border-color: blue;
+    background-color: rgb(170, 211, 81);
+    color: red;
+}
